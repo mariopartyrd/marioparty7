@@ -301,6 +301,9 @@ config.libs = [
         "host": False,
         "objects": [
             Object(Matching, "game/frand.c"),
+            Object(NonMatching, "game/main.c"),
+            Object(NonMatching, "game/pad.c"),
+            Object(NonMatching, "game/dvd.c"),
             Object(NonMatching, "game/kerent.c"),
         ],
     },

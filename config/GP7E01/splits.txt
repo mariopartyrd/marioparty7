@@ -13,6 +13,27 @@ Sections:
 	.sdata2     type:rodata align:16
 	.sbss2      type:bss align:32
 
+game/main.c:
+	.text       start:0x80005920 end:0x80005C98
+	.data       start:0x80244AE0 end:0x80244B20
+	.sdata      start:0x802F21E0 end:0x802F21F0
+	.sbss       start:0x802F2C20 end:0x802F2C40
+	.sdata2     start:0x802F3DC0 end:0x802F3DC8
+
+game/pad.c:
+	.text       start:0x80005C98 end:0x80006FCC
+	.data       start:0x80244B20 end:0x80244B30
+	.bss        start:0x80277980 end:0x80277A20
+	.sdata      start:0x802F21F0 end:0x802F21F8
+	.sbss       start:0x802F2C40 end:0x802F2CD8
+	.sdata2     start:0x802F3DC8 end:0x802F3E18
+
+game/dvd.c:
+	.text       start:0x80006FCC end:0x8000766C
+	.data       start:0x80244B30 end:0x80244C68
+	.sdata      start:0x802F21F8 end:0x802F2200
+	.sbss       start:0x802F2CD8 end:0x802F2CE0
+
 board/mgcall.c:
 	.data       start:0x80276E50 end:0x80277208
 

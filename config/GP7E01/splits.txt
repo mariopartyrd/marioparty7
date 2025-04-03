@@ -224,6 +224,97 @@ game/ShapeExec.c:
 	.text       start:0x8004A390 end:0x8004A7A0
 	.sdata2     start:0x802F43F0 end:0x802F4400
 
+game/wipe.c:
+	.text       start:0x8004A7A0 end:0x8004DAAC
+	.data       start:0x80257678 end:0x802576E0
+	.bss        start:0x80295320 end:0x80295360
+	.sbss       start:0x802F3018 end:0x802F3028
+	.sdata2     start:0x802F4400 end:0x802F44E8
+
+game/window.c:
+	.text       start:0x8004DAAC end:0x80058BC4
+	.rodata     start:0x8023FA90 end:0x8023FAF8
+	.data       start:0x802576E0 end:0x80258148
+	.bss        start:0x80295360 end:0x8029A7C0
+	.sdata      start:0x802F2298 end:0x802F24E0
+	.sbss       start:0x802F3028 end:0x802F3070
+	.sdata2     start:0x802F44E8 end:0x802F4608
+
+game/card.c:
+	.text       start:0x80058BC4 end:0x800593B0
+	.data       start:0x80258148 end:0x80258198
+	.sbss       start:0x802F3070 end:0x802F3080
+
+game/armem.c:
+	.text       start:0x800593B0 end:0x8005A23C
+	.data       start:0x80258198 end:0x80258288
+	.bss        start:0x8029A7C0 end:0x8029AEA0
+	.sbss       start:0x802F3080 end:0x802F3090
+
+game/charman.c:
+	.text       start:0x8005A23C end:0x8006616C
+	.data       start:0x80258288 end:0x80259738
+	.bss        start:0x8029AEA0 end:0x8029BE58
+	.sdata      start:0x802F24E0 end:0x802F24F0
+	.sbss       start:0x802F3090 end:0x802F30A0
+	.sdata2     start:0x802F4608 end:0x802F4768
+
+game/mapspace.c:
+	.text       start:0x8006616C end:0x80069F08
+	.bss        start:0x8029BE58 end:0x8029C2C0
+	.sbss       start:0x802F30A0 end:0x802F30C0
+	.sdata2     start:0x802F4768 end:0x802F4798
+
+game/THPSimple.c:
+	.text       start:0x80069F08 end:0x8006C0EC
+	.data       start:0x80259738 end:0x80259838
+	.bss        start:0x8029C2C0 end:0x8029C9A0
+	.sdata      start:0x802F24F0 end:0x802F24F8
+	.sbss       start:0x802F30C0 end:0x802F30E8
+	.sdata2     start:0x802F4798 end:0x802F47A8
+
+game/THPDraw.c:
+	.text       start:0x8006C0EC end:0x8006CA44
+	.sdata2     start:0x802F47A8 end:0x802F47C0
+
+game/thpmain.c:
+	.text       start:0x8006CA44 end:0x8006DB28
+	.rodata     start:0x8023FAF8 end:0x8023FB08
+	.data       start:0x80259838 end:0x802598A0
+	.bss        start:0x8029C9A0 end:0x8029C9E0
+	.sbss       start:0x802F30E8 end:0x802F3110
+	.sdata2     start:0x802F47C0 end:0x802F47E8
+
+game/mgdata.c:
+	.text       start:0x8006DB28 end:0x8006DFC8
+	.data       start:0x802598A0 end:0x8025CE70
+	.bss        start:0x8029C9E0 end:0x8029D6A8
+	.sdata      start:0x802F24F8 end:0x802F2510
+	.sbss       start:0x802F3110 end:0x802F3140
+	.sdata2     start:0x802F47E8 end:0x802F4800
+
+game/objsub.c:
+	.text       start:0x8006DFC8 end:0x8006E1D0
+
+game/flag.c:
+	.text       start:0x8006E1D0 end:0x8006E3E8
+	.bss        start:0x8029D6A8 end:0x8029D6C0
+
+game/saveload.c:
+	.text       start:0x8006E3E8 end:0x800722FC
+	.data       start:0x8025CE70 end:0x8025CF10
+	.bss        start:0x8029D6C0 end:0x802B6228
+	.sdata      start:0x802F2510 end:0x802F2538
+	.sbss       start:0x802F3140 end:0x802F3158
+	.sdata2     start:0x802F4800 end:0x802F4840
+
+game/sreset.c:
+	.text       start:0x800722FC end:0x80072F90
+	.data       start:0x8025CF10 end:0x802644B0
+	.bss        start:0x802B6228 end:0x802B75D0
+	.sdata      start:0x802F2538 end:0x802F2550
+	.sbss       start:0x802F3158 end:0x802F3178
+
 board/mgcall.c:
 	.data       start:0x80276E50 end:0x80277208
 

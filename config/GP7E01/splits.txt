@@ -365,8 +365,87 @@ game/mic.c:
 	.sbss       start:0x802F31C8 end:0x802F3258
 	.sdata2     start:0x802F4BF8 end:0x802F4C78
 
+libhu/setvf.c:
+	.text       start:0x801450B0 end:0x801450C0
+
+libhu/subvf.c:
+	.text       start:0x801450C0 end:0x801450F4
+
+msm/msmsys.c:
+	.text       start:0x801450F4 end:0x80147514
+	.bss        start:0x802E77C0 end:0x802E7CD8
+	.sdata2     start:0x802F5E20 end:0x802F5E28
+
+msm/msmmem.c:
+	.text       start:0x80147514 end:0x80147744
+	.bss        start:0x802E7CD8 end:0x802E7D08
+
+msm/msmfio.c:
+	.text       start:0x80147744 end:0x80147834
+	.bss        start:0x802E7D08 end:0x802E7D18
+
+msm/msmmus.c:
+	.text       start:0x80147834 end:0x801486EC
+	.bss        start:0x802E7D18 end:0x802E7E90
+
+msm/msmse.c:
+	.text       start:0x801486EC end:0x8014A1A0
+	.bss        start:0x802E7E90 end:0x802E7F80
+	.sdata2     start:0x802F5E28 end:0x802F5E40
+
+msm/msmstream.c:
+	.text       start:0x8014A1A0 end:0x8014D430
+	.bss        start:0x802E7F80 end:0x802E7FE0
+
+zlib/adler32.c:
+	.text       start:0x8014D6BC end:0x8014D868
+
+zlib/inflate.c:
+	.text       start:0x8014D868 end:0x8014E1F4
+	.data       start:0x80270B20 end:0x80270BC8
+	.sdata      start:0x802F2850 end:0x802F2858
+
+zlib/infblock.c:
+	.text       start:0x8014E1F4 end:0x8014F4DC
+	.rodata     start:0x80243F80 end:0x80243FD0
+	.data       start:0x80270BC8 end:0x80270C60
+
+zlib/infcodes.c:
+	.text       start:0x8014F4DC end:0x80150020
+	.data       start:0x80270C60 end:0x80270CC0
+
+zlib/inftrees.c:
+	.text       start:0x80150020 end:0x80150B9C
+	.rodata     start:0x80243FD0 end:0x802441E8
+	.data       start:0x80270CC0 end:0x80271EF0
+	.sdata      start:0x802F2858 end:0x802F2860
+
+zlib/inffast.c:
+	.text       start:0x80150B9C end:0x8015116C
+	.data       start:0x80271EF0 end:0x80271F28
+
+zlib/zutil.c:
+	.text       start:0x8015116C end:0x801511FC
+
+board/pausewatch.c:
+	.text       start:0x801511FC end:0x801513CC
+	.sbss       start:0x802F39D0 end:0x802F39E8
+
+board/main.c:
+	.text       start:0x801513CC end:0x801536E8
+	.data       start:0x80271F28 end:0x80271F40
+	.sdata      start:0x802F2860 end:0x802F2878
+	.sbss       start:0x802F39E8 end:0x802F3A18
+	.sdata2     start:0x802F5E40 end:0x802F5E58
+
 board/mgcall.c:
 	.data       start:0x80276E50 end:0x80277208
+
+board/math.c:
+	.text       start:0x801536E8 end:0x80156BF4
+	.bss        start:0x802E80C0 end:0x802E8180
+	.sbss       start:0x802F3A18 end:0x802F3A20
+	.sdata2     start:0x802F5E58 end:0x802F5EF8
 
 game/kerent.c:
 	.text       start:0x8023CF6C end:0x8023F9A0

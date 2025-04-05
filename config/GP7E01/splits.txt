@@ -433,19 +433,62 @@ board/pausewatch.c:
 
 board/main.c:
 	.text       start:0x801513CC end:0x801536E8
-	.data       start:0x80271F28 end:0x80271F40
+	.data       start:0x80271F28 end:0x80271F50
 	.sdata      start:0x802F2860 end:0x802F2878
 	.sbss       start:0x802F39E8 end:0x802F3A18
 	.sdata2     start:0x802F5E40 end:0x802F5E58
 
-board/mgcall.c:
-	.data       start:0x80276E50 end:0x80277208
-
 board/math.c:
 	.text       start:0x801536E8 end:0x80156BF4
-	.bss        start:0x802E80C0 end:0x802E8180
+	.bss        start:0x802E80C0 end:0x802E8280
 	.sbss       start:0x802F3A18 end:0x802F3A20
 	.sdata2     start:0x802F5E58 end:0x802F5EF8
+
+board/camera.c:
+	.text       start:0x80156BF4 end:0x8015AFE8
+	.rodata     start:0x802441E8 end:0x80244340
+	.bss        start:0x802E8280 end:0x802E9C00
+	.sbss       start:0x802F3A20 end:0x802F3A30
+	.sdata2     start:0x802F5EF8 end:0x802F5F68
+
+board/player.c:
+	.text       start:0x8015AFE8 end:0x80169098
+	.rodata     start:0x80244340 end:0x802444B0
+	.data       start:0x80271F50 end:0x802720A0
+	.bss        start:0x802E9C00 end:0x802EA158
+	.sdata      start:0x802F2878 end:0x802F28D0
+	.sbss       start:0x802F3A30 end:0x802F3A58
+	.sdata2     start:0x802F5F68 end:0x802F6050
+
+board/modeleff.c:
+	.text       start:0x80169098 end:0x8016AD84
+	.rodata     start:0x802444B0 end:0x802444C0
+	.data       start:0x802720A0 end:0x80272150
+	.sbss       start:0x802F3A58 end:0x802F3A60
+	.sdata2     start:0x802F6050 end:0x802F60A8
+
+board/model.c:
+	.text       start:0x8016AD84 end:0x8016E448
+	.rodata     start:0x802444C0 end:0x80244508
+	.sbss       start:0x802F3A60 end:0x802F3A78
+	.sdata2     start:0x802F60A8 end:0x802F60F0
+
+board/window.c:
+	.text       start:0x8016E448 end:0x801716B4
+	.rodata     start:0x80244508 end:0x80244528
+	.data       start:0x80272150 end:0x802721C0
+	.bss        start:0x802EA158 end:0x802EA1B8
+	.sbss       start:0x802F3A78 end:0x802F3A90
+	.sdata2     start:0x802F60F0 end:0x802F6128
+
+board/mgcall.c:
+	.text       start:0x8021DF60 end:0x802259D8
+	.rodata     start:0x80244858 end:0x80244968
+	.data       start:0x80276E50 end:0x80277208
+	.bss        start:0x802F19C0 end:0x802F1AB8
+	.sdata      start:0x802F2BA0 end:0x802F2BC0
+	.sbss       start:0x802F3D40 end:0x802F3D60
+	.sdata2     start:0x802F79E8 end:0x802F7B40
 
 game/kerent.c:
 	.text       start:0x8023CF6C end:0x8023F9A0

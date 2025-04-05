@@ -410,6 +410,12 @@ config.libs = [
             Object(NonMatching, "board/pausewatch.c"),
             Object(NonMatching, "board/main.c"),
             Object(NonMatching, "board/math.c"),
+            Object(NonMatching, "board/camera.c"),
+            Object(NonMatching, "board/player.c"),
+            Object(NonMatching, "board/modeleff.c"),
+            Object(NonMatching, "board/model.c"),
+            Object(NonMatching, "board/window.c"),
+            Object(NonMatching, "board/mgcall.c"),
         ],
     },
     {

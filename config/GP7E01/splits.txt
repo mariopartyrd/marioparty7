@@ -531,6 +531,50 @@ board/star.c:
 board/padall.c:
 	.text       start:0x8018A74C end:0x8018A820
 
+board/sai.c:
+	.text       start:0x8018A820 end:0x8019225C
+	.rodata     start:0x80244698 end:0x80244770
+	.data       start:0x80272528 end:0x802728B8
+	.bss        start:0x802ED9F8 end:0x802EDA68
+	.sdata      start:0x802F2908 end:0x802F2920
+	.sbss       start:0x802F3BC0 end:0x802F3BC8
+	.sdata2     start:0x802F64B0 end:0x802F6610
+
+board/status.c:
+	.text       start:0x8019225C end:0x80196014
+	.rodata     start:0x80244770 end:0x80244788
+	.data       start:0x802728B8 end:0x80272AC8
+	.bss        start:0x802EDA68 end:0x802EDC48
+	.sbss       start:0x802F3BC8 end:0x802F3BD0
+	.sdata2     start:0x802F6610 end:0x802F66A8
+
+board/opening.c:
+	.text       start:0x80196014 end:0x80198398
+	.rodata     start:0x80244788 end:0x802447A0
+	.data       start:0x80272AC8 end:0x80272BC8
+	.bss        start:0x802EDC48 end:0x802EF090
+	.sdata      start:0x802F2920 end:0x802F2948
+	.sbss       start:0x802F3BD0 end:0x802F3BF8
+	.sdata2     start:0x802F66A8 end:0x802F6740
+
+board/pause.c:
+	.text       start:0x80198398 end:0x80199988
+	.rodata     start:0x802447A0 end:0x80244800
+	.data       start:0x80272BC8 end:0x80272C68
+	.bss        start:0x802EF090 end:0x802EF110
+	.sdata      start:0x802F2948 end:0x802F2958
+	.sbss       start:0x802F3BF8 end:0x802F3C08
+	.sdata2     start:0x802F6740 end:0x802F6780
+
+board/tutorial.c:
+	.text       start:0x80199988 end:0x8019C5B4
+	.rodata     start:0x80244800 end:0x80244830
+	.data       start:0x80272C68 end:0x80272CE8
+	.bss        start:0x802EF110 end:0x802EF248
+	.sdata      start:0x802F2958 end:0x802F2960
+	.sbss       start:0x802F3C08 end:0x802F3C28
+	.sdata2     start:0x802F6780 end:0x802F6810
+
 board/mgcall.c:
 	.text       start:0x8021DF60 end:0x802259D8
 	.rodata     start:0x80244858 end:0x80244968

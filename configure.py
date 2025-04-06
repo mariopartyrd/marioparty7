@@ -416,6 +416,13 @@ config.libs = [
             Object(NonMatching, "board/model.c"),
             Object(NonMatching, "board/window.c"),
             Object(NonMatching, "board/mgcall.c"),
+            Object(NonMatching, "board/audio.c"),
+            Object(NonMatching, "board/comchoice.c"),
+            Object(NonMatching, "board/scroll.c"),
+            Object(NonMatching, "board/masu.c"),
+            Object(NonMatching, "board/coin.c"),
+            Object(NonMatching, "board/star.c"),
+            Object(NonMatching, "board/padall.c"),
         ],
     },
     {

@@ -481,6 +481,56 @@ board/window.c:
 	.sbss       start:0x802F3A78 end:0x802F3A90
 	.sdata2     start:0x802F60F0 end:0x802F6128
 
+board/audio.c:
+	.text       start:0x801716B4 end:0x80174C54
+	.data       start:0x802721C0 end:0x80272200
+	.bss        start:0x802EA1B8 end:0x802EA8A8
+	.sdata      start:0x802F28D0 end:0x802F28D8
+	.sbss       start:0x802F3A90 end:0x802F3AB0
+	.sdata2     start:0x802F6128 end:0x802F6168
+
+board/comchoice.c:
+	.text       start:0x80174C54 end:0x801750CC
+	.sbss       start:0x802F3AB0 end:0x802F3AB8
+
+board/scroll.c:
+	.text       start:0x801750CC end:0x80178B80
+	.rodata     start:0x80244528 end:0x80244590
+	.data       start:0x80272200 end:0x80272248
+	.bss        start:0x802EA8A8 end:0x802EADF8
+	.sdata      start:0x802F28D8 end:0x802F28E0
+	.sbss       start:0x802F3AB8 end:0x802F3B08
+	.sdata2     start:0x802F6168 end:0x802F6240
+
+board/masu.c:
+	.text       start:0x80178B80 end:0x8017E8D4
+	.rodata     start:0x80244590 end:0x80244658
+	.data       start:0x80272248 end:0x80272358
+	.bss        start:0x802EADF8 end:0x802EB508
+	.sdata      start:0x802F28E0 end:0x802F28E8
+	.sbss       start:0x802F3B08 end:0x802F3B80
+	.sdata2     start:0x802F6240 end:0x802F62D8
+
+board/coin.c:
+	.text       start:0x8017E8D4 end:0x8018537C
+	.rodata     start:0x80244658 end:0x80244680
+	.data       start:0x80272358 end:0x80272528
+	.bss        start:0x802EB508 end:0x802EBAC0
+	.sdata      start:0x802F28E8 end:0x802F2900
+	.sbss       start:0x802F3B80 end:0x802F3B90
+	.sdata2     start:0x802F62D8 end:0x802F63E0
+
+board/star.c:
+	.text       start:0x8018537C end:0x8018A74C
+	.rodata     start:0x80244680 end:0x80244698
+	.bss        start:0x802EBAC0 end:0x802ED9F8
+	.sdata      start:0x802F2900 end:0x802F2908
+	.sbss       start:0x802F3B90 end:0x802F3BC0
+	.sdata2     start:0x802F63E0 end:0x802F64B0
+
+board/padall.c:
+	.text       start:0x8018A74C end:0x8018A820
+
 board/mgcall.c:
 	.text       start:0x8021DF60 end:0x802259D8
 	.rodata     start:0x80244858 end:0x80244968

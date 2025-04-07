@@ -423,6 +423,11 @@ config.libs = [
             Object(NonMatching, "board/coin.c"),
             Object(NonMatching, "board/star.c"),
             Object(NonMatching, "board/padall.c"),
+            Object(NonMatching, "board/sai.c"),
+            Object(NonMatching, "board/status.c"),
+            Object(NonMatching, "board/opening.c"),
+            Object(NonMatching, "board/pause.c"),
+            Object(NonMatching, "board/tutorial.c"),
         ],
     },
     {

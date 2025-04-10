@@ -575,6 +575,67 @@ board/tutorial.c:
 	.sbss       start:0x802F3C08 end:0x802F3C28
 	.sdata2     start:0x802F6780 end:0x802F6810
 
+board/capselect.c:
+	.text       start:0x8019C5B4 end:0x801A0904
+	.data       start:0x80272CE8 end:0x80272D30
+	.bss        start:0x802EF248 end:0x802EF2E8
+	.sbss       start:0x802F3C28 end:0x802F3C40
+	.sdata2     start:0x802F6810 end:0x802F6900
+
+board/capitem.c:
+	.text       start:0x801A0904 end:0x801A8F30
+	.data       start:0x80272D30 end:0x80272FA0
+	.bss        start:0x802EF2E8 end:0x802EF308
+	.sdata      start:0x802F2960 end:0x802F2968
+	.sbss       start:0x802F3C40 end:0x802F3C48
+	.sdata2     start:0x802F6900 end:0x802F6AE8
+
+board/capmasu.c:
+	.text       start:0x801A8F30 end:0x801B356C
+	.data       start:0x80272FA0 end:0x802730B0
+	.sdata      start:0x802F2968 end:0x802F2978
+	.sbss       start:0x802F3C48 end:0x802F3C50
+	.sdata2     start:0x802F6AE8 end:0x802F6D30
+
+board/captrap.c:
+	.text       start:0x801B356C end:0x801C0AF0
+	.data       start:0x802730B0 end:0x80273150
+	.bss        start:0x802EF308 end:0x802EF328
+	.sdata2     start:0x802F6D30 end:0x802F6F70
+
+board/capspecial.c:
+	.text       start:0x801C0AF0 end:0x801CBBA0
+	.data       start:0x80273150 end:0x802733F8
+	.bss        start:0x802EF328 end:0x802EF368
+	.sdata      start:0x802F2978 end:0x802F2988
+	.sbss       start:0x802F3C50 end:0x802F3C80
+	.sdata2     start:0x802F6F70 end:0x802F7130
+
+board/capevent.c:
+	.text       start:0x801CBBA0 end:0x801E110C
+	.data       start:0x802733F8 end:0x80273E40
+	.bss        start:0x802EF368 end:0x802EF448
+	.sdata      start:0x802F2988 end:0x802F2A10
+	.sbss       start:0x802F3C80 end:0x802F3CA0
+	.sdata2     start:0x802F7130 end:0x802F7320
+
+board/capsule.c:
+	.text       start:0x801E110C end:0x801F5EB0
+	.data       start:0x80273E40 end:0x80275848
+	.bss        start:0x802EF448 end:0x802F0EE8
+	.sdata      start:0x802F2A10 end:0x802F2B30
+	.sbss       start:0x802F3CA0 end:0x802F3CF0
+	.sdata2     start:0x802F7320 end:0x802F7500
+
+board/capmain.c:
+	.text       start:0x801F5EB0 end:0x80212A14
+	.rodata     start:0x80244830 end:0x80244840
+	.data       start:0x80275848 end:0x80276938
+	.bss        start:0x802F0EE8 end:0x802F1970
+	.sdata      start:0x802F2B30 end:0x802F2B78
+	.sbss       start:0x802F3CF0 end:0x802F3D20
+	.sdata2     start:0x802F7500 end:0x802F7768
+
 board/mgcall.c:
 	.text       start:0x8021DF60 end:0x802259D8
 	.rodata     start:0x80244858 end:0x80244968
